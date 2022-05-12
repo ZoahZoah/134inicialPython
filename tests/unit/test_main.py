@@ -1,3 +1,5 @@
+import pytest
+
 from main import somar, subtrair, multiplicar, dividir
 
 
@@ -41,8 +43,22 @@ class TesteContas:
         resultado_obtido = dividir(numero_a, numero_b)
         assert resultado_esperado == resultado_obtido
 
+#lista para uso como massa de testes
+lista_de_valores = [
+    (3, 18, 54),
+    (5, 9, 45),
+    (-5, -7, 35),
+    (-5, 7, -35),
+    (1, 0, 0)
+]
+
+@pytest.mark.parametrize('numero_a, numero_b, resultado_esperado', lista_de_valores)
+def test_multiplicar_leitura_de_lista(numero_a, numero_b, resultado_esperado):
+        resultado_obtido = multiplicar(numero_a, numero_b)
+        assert resultado_esperado == resultado_obtido
+
     # TDD = Test Driven Development
-    #       Desenvolvimento Direcionado por Teste
+    #        Desenvolvimento Direcionado por Teste
     #
     # - Criar todos os testes de unidade no começo?
     # - Executar todos os testes pelo menos 1 vez por dia
