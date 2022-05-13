@@ -1,7 +1,22 @@
+import csv
+
 import pytest
 
 from main import somar, subtrair, multiplicar, dividir
 
+def ler_csv(arquivo_csv):
+    dados_csv = []
+    try:
+        with open(arquivo_csv, newline='') as massa:
+            campos = csv.reader(massa, delimiter=',')
+            next(campos)
+            for linha in campos:
+                dados_csv.append(linha)
+        return dados_csv
+    except FileNotFoundError:
+        print(f'Arquivo nao encontrado: {arquivo_csv}')
+    except Exception as fail:
+        print(f'Falha imprevista: {fail}')
 
 class TesteContas:
     def test_somar(self):
@@ -56,6 +71,11 @@ lista_de_valores = [
 def test_multiplicar_leitura_de_lista(numero_a, numero_b, resultado_esperado):
         resultado_obtido = multiplicar(numero_a, numero_b)
         assert resultado_esperado == resultado_obtido
+
+@pytest.mark.parametrize('numero_a, numero_b, resultado_esperado', ler_csv('C:\\Users\\ivana\\PycharmProjects\\134inicial\\vendors\\CSV\\massa_testes_multiplicar.csv'))
+def test_multiplicar_leitura_de_csv(numero_a, numero_b, resultado_esperado):
+    resultado_obtido = multiplicar(int(numero_a), int(numero_b))
+    assert int(resultado_esperado) == resultado_obtido
 
     # TDD = Test Driven Development
     #        Desenvolvimento Direcionado por Teste
