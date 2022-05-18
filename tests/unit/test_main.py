@@ -67,15 +67,38 @@ lista_de_valores = [
     (1, 0, 0)
 ]
 
+
 @pytest.mark.parametrize('numero_a, numero_b, resultado_esperado', lista_de_valores)
 def test_multiplicar_leitura_de_lista(numero_a, numero_b, resultado_esperado):
-        resultado_obtido = multiplicar(numero_a, numero_b)
-        assert resultado_esperado == resultado_obtido
+    resultado_obtido = multiplicar(numero_a, numero_b)
+    assert resultado_esperado == resultado_obtido
 
-@pytest.mark.parametrize('numero_a, numero_b, resultado_esperado', ler_csv('C:\\Users\\ivana\\PycharmProjects\\134inicial\\vendors\\CSV\\massa_testes_multiplicar.csv'))
-def test_multiplicar_leitura_de_csv(numero_a, numero_b, resultado_esperado):
-    resultado_obtido = multiplicar(int(numero_a), int(numero_b))
-    assert int(resultado_esperado) == resultado_obtido
+
+class TesteDeMassaDeContasCSV:
+
+    @pytest.mark.parametrize('numero_a, numero_b, resultado_esperado', ler_csv('C:\\Users\\ivana\\PycharmProjects\\134inicial\\vendors\\CSV\\massa_testes_multiplicar.csv'))
+    def test_multiplicar_leitura_de_csv(numero_a, numero_b, resultado_esperado):
+        resultado_obtido = multiplicar(int(numero_a), int(numero_b))
+        assert int(resultado_esperado) == resultado_obtido
+
+    @pytest.mark.parametrize('numero_a, numero_b, resultado_esperado', ler_csv('C:\\Users\\ivana\\PycharmProjects\\134inicial\\vendors\\CSV\\massa_testes_dividir.csv'))
+    def test_dividir_leitura_de_csv(numero_a, numero_b, resultado_esperado):
+    #resultado_obtido = dividir(int(numero_a), int(numero_b))
+        try:
+            return int(numero_a) / int(numero_b)
+        except ZeroDivisionError:
+            return 'Não dividiras por Zero'
+        assert int(resultado_esperado) == resultado_obtido
+
+    @pytest.mark.parametrize('numero_a, numero_b, resultado_esperado', ler_csv('C:\\Users\\ivana\\PycharmProjects\\134inicial\\vendors\\CSV\\massa_testes_somar.csv'))
+    def test_somar_leitura_de_csv(numero_a, numero_b, resultado_esperado):
+        resultado_obtido = somar(int(numero_a), int(numero_b))
+        assert int(resultado_esperado) == resultado_obtido
+
+    @pytest.mark.parametrize('numero_a, numero_b, resultado_esperado', ler_csv('C:\\Users\\ivana\\PycharmProjects\\134inicial\\vendors\\CSV\\massa_testes_subtrair.csv'))
+    def test_subtrair_leitura_de_csv(numero_a, numero_b, resultado_esperado):
+        resultado_obtido = subtrair(int(numero_a), int(numero_b))
+        assert int(resultado_esperado) == resultado_obtido
 
     # TDD = Test Driven Development
     #        Desenvolvimento Direcionado por Teste

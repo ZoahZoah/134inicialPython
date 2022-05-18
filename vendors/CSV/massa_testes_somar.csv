@@ -1,0 +1,7 @@
+numero_a, numero_b, resultado_esperado
+2, 7, 9
+6, 9, 15
+72, 3, 75
+1023, 0, 1023
+-3, 36, 33
+-5, -80, -85
