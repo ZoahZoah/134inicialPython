@@ -1,0 +1,18 @@
+{
+  "id": 1004219,
+  "category": {
+    "id": 1,
+    "name": "Cachorros"
+  },
+  "name": "Maggienha",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "Vacinado"
+    }
+  ],
+  "status": "Indisponível"
+}
