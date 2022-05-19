@@ -75,7 +75,6 @@ def test_multiplicar_leitura_de_lista(numero_a, numero_b, resultado_esperado):
 
 
 class TesteDeMassaDeContasCSV:
-
     @pytest.mark.parametrize('numero_a, numero_b, resultado_esperado', ler_csv('C:\\Users\\ivana\\PycharmProjects\\134inicial\\vendors\\CSV\\massa_testes_multiplicar.csv'))
     def test_multiplicar_leitura_de_csv(numero_a, numero_b, resultado_esperado):
         resultado_obtido = multiplicar(int(numero_a), int(numero_b))
