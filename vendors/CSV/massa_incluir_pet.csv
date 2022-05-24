@@ -1,0 +1,5 @@
+pet_id,category_id,category_name,pet_name,tags_id,tag_names,status
+44821901,1,cachorro,Chokito,1,vacinado,disponivel
+44821902,2,gato,Shoyu,2,castrado,disponivel
+44821903,3,peixe,Mostarda,3,registrado,disponivel
+44821903,13,ratel,Marombado,1,vacinado,disponivel
