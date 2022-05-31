@@ -36,3 +36,5 @@ def test_vender_pet():
     assert corpo_resultado_obtido['status'] == status_venda_esperado
     corpo_resultado_obtido['shipDate'] = datetime.today()
     print(corpo_resultado_obtido['shipDate'])
+
+def test_buscar_pet_store():
