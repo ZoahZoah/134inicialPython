@@ -28,7 +28,7 @@ def test_incluir_pet():
         resultado_obtido = requests.post(
             url=url,
             headers=headers,
-            data=open('C:\\Users\\ivana\\PycharmProjects\\134inicial\\vendors\\Json\\pet1.json')
+            data=open('../../vendors/Json/pet1.json')
         )
     #Válida
         print(resultado_obtido)
@@ -75,13 +75,13 @@ def test_alterar_pet():
     pet_nome_esperado = "Maggienha"
     pet_nome_categoria = "Cachorros"
     pet_nome_tag_nome = "Vacinado"
-    pet_status_esperado = "Indisponível"
+    pet_status_esperado = "Indisponivel"
 
     # Executa
     resultado_obtido = requests.put(
         url=url,
         headers=headers,
-        data=open('C:\\Users\\ivana\\PycharmProjects\\134inicial\\vendors\\Json\\pet2.json')
+        data=open('../../vendors/Json/pet2.json')
     )
 
     # Valida
@@ -123,7 +123,7 @@ def test_excluir_pet():
     assert corpo_resultado_obtido['message'] == message_esperada
 
 @pytest.mark.parametrize('pet_id, category_id, category_name, pet_name, tags_id, tag_names, status', ler_csv(
-    'C:\\Users\\ivana\\PycharmProjects\\134inicial\\vendors\\CSV\\massa_incluir_pet.csv'))
+    '../../vendors/CSV/massa_incluir_pet.csv'))
 def test_incluir_pet_em_massa(pet_id, category_id, category_name, pet_name, tags_id, tag_names, status):
     # 1. Configura
         # 1.1. Dados de Entrada
@@ -166,6 +166,36 @@ def test_incluir_pet_em_massa(pet_id, category_id, category_name, pet_name, tags
     assert resultado_obtido.status_code == status_code_esperado
     assert corpo_resultado_obtido['id'] == int(pet_id)
     assert corpo_resultado_obtido['name'] == pet_name
+    assert corpo_resultado_obtido['category']['name'] == category_name
+    assert corpo_resultado_obtido['tags'][0]['name'] == tag_names
+    assert corpo_resultado_obtido['status'] == status
+
+def test_search_by_ID():
+    # Configura
+    pet_id = '44821902'
+    status_code_esperado = 200
+    category_id = 2
+    category_name = 'gato'
+    pet_name = 'Shoyu'
+    tags_id = 3
+    tag_names = 'castrado'
+    status = 'disponivel'
+
+    # Executa
+    resultado_obtido = requests.get(
+        url=url + '/' + pet_id,
+        headers=headers
+    )
+
+    # Valida
+    print(resultado_obtido)
+    corpo_resultado_obtido = resultado_obtido.json()
+    print(json.dumps(corpo_resultado_obtido, indent=4))
+
+    assert resultado_obtido.status_code == status_code_esperado
+    assert corpo_resultado_obtido['id'] == int(pet_id)
+    assert corpo_resultado_obtido['name'] == pet_name
+    assert corpo_resultado_obtido['category']['id'] == category_id
     assert corpo_resultado_obtido['category']['name'] == category_name
     assert corpo_resultado_obtido['tags'][0]['name'] == tag_names
     assert corpo_resultado_obtido['status'] == status

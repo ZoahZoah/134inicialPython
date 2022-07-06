@@ -27,7 +27,7 @@ def test_incluir_usuario():
     resultado_obtido = requests.post(
         url=url,
         headers=headers,
-        data=open('C:\\Users\\ivana\\PycharmProjects\\134inicial\\vendors\\Json\\user1.json')
+        data=open('../../vendors/Json/user1.json')
     )
 
     # Valida
@@ -131,7 +131,7 @@ def test_update_user():
     resultado_obtido = requests.put(
         url=f'{url}/{username}',
         headers=headers,
-        data=open('C:\\Users\\ivana\\PycharmProjects\\134inicial\\vendors\\Json\\user2.json')
+        data=open('../../vendors/Json/user2.json')
     )
 
     # Válida
@@ -145,7 +145,7 @@ def test_update_user():
     assert corpo_resultado_obtido['message'] == message_esperado
 
 @pytest.mark.parametrize('user_id, user_username, user_firstName, user_lastName, user_email, user_password, user_phone',
-                         ler_csv('C:\\Users\\ivana\\PycharmProjects\\134inicial\\vendors\\CSV\\massa_incluir_user.csv'))
+                         ler_csv('../../vendors/CSV/massa_incluir_user.csv'))
 def test_incluir_usuario_csv(user_id, user_username, user_firstName, user_lastName, user_email, user_password, user_phone):
     # Configura
         # Dados de entrada

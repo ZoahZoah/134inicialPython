@@ -1,5 +1,5 @@
 # Done: 3 - criar uma venda de um pet para um usuário
-# ToDo: 4 - consultar os dados do pet que foi vendido
+# Done: 4 - consultar os dados do pet que foi vendido
 import json
 from datetime import datetime
 import requests
@@ -22,7 +22,7 @@ def test_vender_pet():
     resultado_obtido = requests.post(
         url=url,
         headers=headers,
-        data=open('C:\\Users\\ivana\\PycharmProjects\\134inicial\\vendors\\Json\\store1.json')
+        data=open('../../vendors/Json/store1.json')
     )
 
     # Valida
@@ -38,3 +38,10 @@ def test_vender_pet():
     print(corpo_resultado_obtido['shipDate'])
 
 def test_buscar_pet_store():
+    # Configura
+        # Dados de Entrada
+        # Resultado Esperado
+
+    # Executa
+
+    # Valida
