@@ -6,7 +6,7 @@ from selenium.webdriver.common.by import By
 class TestComprarPassagem:
     def setup_method(self):
         self.driver = webdriver.Chrome(
-          'C:\\Users\\corre\\PycharmProjects\\134inicial\\vendors\\drivers\\chromedriver102.exe'
+            '../../vendors/drivers/chromedriver102.exe'
         )
         self.vars = {}
 

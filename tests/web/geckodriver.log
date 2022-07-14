@@ -1,0 +1,180 @@
+1657755944517	geckodriver	INFO	Listening on 127.0.0.1:61581
+1657756020333	geckodriver	INFO	Listening on 127.0.0.1:61701
+1657756023391	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61702" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ivana\\AppData\\Local\\Temp\\rust_mozprofileu9woWc"
+1657756023863	Marionette	INFO	Marionette enabled
+1657756023867	Marionette	INFO	Listening on port 61711
+WebDriver BiDi listening on ws://localhost:61702
+Read port: 61711
+1657756024055	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ivana\\AppData\\Local\\Temp\\rust_mozprofileu9woWc\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61702/devtools/browser/72edfb82-ae83-4944-8d04-a19b76b1ccf4
+JavaScript error: https://www.blazedemo.com/assets/bootstrap.min.js, line 7: TypeError: a is not a function
+JavaScript error: https://www.blazedemo.com/assets/bootstrap-table.js, line 1126: ReferenceError: jQuery is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.blazedemo.com"
+JavaScript error: https://www.blazedemo.com/assets/bootstrap.min.js, line 7: TypeError: a is not a function
+JavaScript error: https://www.blazedemo.com/assets/bootstrap-table.js, line 1126: ReferenceError: jQuery is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.blazedemo.com"
+JavaScript error: https://www.blazedemo.com/assets/bootstrap.min.js, line 7: TypeError: a is not a function
+JavaScript error: https://www.blazedemo.com/assets/bootstrap-table.js, line 1126: ReferenceError: jQuery is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.blazedemo.com"
+JavaScript error: https://www.blazedemo.com/assets/bootstrap.min.js, line 7: TypeError: a is not a function
+JavaScript error: https://www.blazedemo.com/assets/bootstrap-table.js, line 1126: ReferenceError: jQuery is not defined
+1657756040733	Marionette	INFO	Stopped listening on port 61711
+1657756113055	geckodriver	INFO	Listening on 127.0.0.1:61786
+1657756116051	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61787" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ivana\\AppData\\Local\\Temp\\rust_mozprofilelVXXTE"
+1657756116512	Marionette	INFO	Marionette enabled
+1657756116515	Marionette	INFO	Listening on port 61796
+Read port: 61796
+WebDriver BiDi listening on ws://localhost:61787
+1657756116670	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ivana\\AppData\\Local\\Temp\\rust_mozprofilelVXXTE\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61787/devtools/browser/d0e64d7a-dc98-46f5-af11-36cd9198c790
+JavaScript error: https://www.blazedemo.com/assets/bootstrap.min.js, line 7: TypeError: a is not a function
+JavaScript error: https://www.blazedemo.com/assets/bootstrap-table.js, line 1126: ReferenceError: jQuery is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.blazedemo.com"
+JavaScript error: https://www.blazedemo.com/assets/bootstrap.min.js, line 7: TypeError: a is not a function
+JavaScript error: https://www.blazedemo.com/assets/bootstrap-table.js, line 1126: ReferenceError: jQuery is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.blazedemo.com"
+JavaScript error: https://www.blazedemo.com/assets/bootstrap.min.js, line 7: TypeError: a is not a function
+JavaScript error: https://www.blazedemo.com/assets/bootstrap-table.js, line 1126: ReferenceError: jQuery is not defined
+JavaScript error: resource://gre/actors/SelectChild.jsm, line 288: TypeError: InspectorUtils.setContentState: Argument 1 is not an object.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.blazedemo.com"
+JavaScript error: https://www.blazedemo.com/assets/bootstrap.min.js, line 7: TypeError: a is not a function
+JavaScript error: https://www.blazedemo.com/assets/bootstrap-table.js, line 1126: ReferenceError: jQuery is not defined
+1657756131527	Marionette	INFO	Stopped listening on port 61796
+1657756896692	geckodriver	INFO	Listening on 127.0.0.1:62159
+1657756899726	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62160" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ivana\\AppData\\Local\\Temp\\rust_mozprofileUB3mwi"
+1657756900113	Marionette	INFO	Marionette enabled
+1657756900116	Marionette	INFO	Listening on port 62169
+WebDriver BiDi listening on ws://localhost:62160
+Read port: 62169
+1657756900230	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ivana\\AppData\\Local\\Temp\\rust_mozprofileUB3mwi\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62160/devtools/browser/b2bfb192-2eb2-4fc2-a9a6-42c94eeeb6ee
+JavaScript error: https://www.blazedemo.com/assets/bootstrap.min.js, line 7: TypeError: a is not a function
+JavaScript error: https://www.blazedemo.com/assets/bootstrap-table.js, line 1126: ReferenceError: jQuery is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.blazedemo.com"
+JavaScript error: https://www.blazedemo.com/assets/bootstrap.min.js, line 7: TypeError: a is not a function
+JavaScript error: https://www.blazedemo.com/assets/bootstrap-table.js, line 1126: ReferenceError: jQuery is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.blazedemo.com"
+JavaScript error: https://www.blazedemo.com/assets/bootstrap.min.js, line 7: TypeError: a is not a function
+JavaScript error: https://www.blazedemo.com/assets/bootstrap-table.js, line 1126: ReferenceError: jQuery is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.blazedemo.com"
+JavaScript error: https://www.blazedemo.com/assets/bootstrap.min.js, line 7: TypeError: a is not a function
+JavaScript error: https://www.blazedemo.com/assets/bootstrap-table.js, line 1126: ReferenceError: jQuery is not defined
+1657756915030	Marionette	INFO	Stopped listening on port 62169
+1657757001111	geckodriver	INFO	Listening on 127.0.0.1:62244
+1657757004179	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62245" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ivana\\AppData\\Local\\Temp\\rust_mozprofilejDMwJ2"
+1657757004627	Marionette	INFO	Marionette enabled
+1657757004630	Marionette	INFO	Listening on port 62254
+WebDriver BiDi listening on ws://localhost:62245
+Read port: 62254
+1657757004746	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ivana\\AppData\\Local\\Temp\\rust_mozprofilejDMwJ2\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62245/devtools/browser/6030a581-cc4a-4ac9-a449-e9f8b726508c
+JavaScript error: https://www.blazedemo.com/assets/bootstrap.min.js, line 7: TypeError: a is not a function
+JavaScript error: https://www.blazedemo.com/assets/bootstrap-table.js, line 1126: ReferenceError: jQuery is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.blazedemo.com"
+JavaScript error: https://www.blazedemo.com/assets/bootstrap.min.js, line 7: TypeError: a is not a function
+JavaScript error: https://www.blazedemo.com/assets/bootstrap-table.js, line 1126: ReferenceError: jQuery is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.blazedemo.com"
+JavaScript error: https://www.blazedemo.com/assets/bootstrap.min.js, line 7: TypeError: a is not a function
+JavaScript error: https://www.blazedemo.com/assets/bootstrap-table.js, line 1126: ReferenceError: jQuery is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.blazedemo.com"
+JavaScript error: https://www.blazedemo.com/assets/bootstrap.min.js, line 7: TypeError: a is not a function
+JavaScript error: https://www.blazedemo.com/assets/bootstrap-table.js, line 1126: ReferenceError: jQuery is not defined
+1657757019208	Marionette	INFO	Stopped listening on port 62254
+1657757090219	geckodriver	INFO	Listening on 127.0.0.1:62334
+1657757093241	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62335" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ivana\\AppData\\Local\\Temp\\rust_mozprofileCtD7ar"
+1657757093663	Marionette	INFO	Marionette enabled
+1657757093666	Marionette	INFO	Listening on port 62344
+WebDriver BiDi listening on ws://localhost:62335
+Read port: 62344
+1657757093782	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ivana\\AppData\\Local\\Temp\\rust_mozprofileCtD7ar\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62335/devtools/browser/ca207fa8-cd88-4f61-8e4e-0d8b1c88ba02
+JavaScript error: https://www.blazedemo.com/assets/bootstrap.min.js, line 7: TypeError: a is not a function
+JavaScript error: https://www.blazedemo.com/assets/bootstrap-table.js, line 1126: ReferenceError: jQuery is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.blazedemo.com"
+JavaScript error: https://www.blazedemo.com/assets/bootstrap.min.js, line 7: TypeError: a is not a function
+JavaScript error: https://www.blazedemo.com/assets/bootstrap-table.js, line 1126: ReferenceError: jQuery is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.blazedemo.com"
+JavaScript error: https://www.blazedemo.com/assets/bootstrap.min.js, line 7: TypeError: a is not a function
+JavaScript error: https://www.blazedemo.com/assets/bootstrap-table.js, line 1126: ReferenceError: jQuery is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.blazedemo.com"
+JavaScript error: https://www.blazedemo.com/assets/bootstrap.min.js, line 7: TypeError: a is not a function
+JavaScript error: https://www.blazedemo.com/assets/bootstrap-table.js, line 1126: ReferenceError: jQuery is not defined
+1657757107981	Marionette	INFO	Stopped listening on port 62344
+1657757286253	geckodriver	INFO	Listening on 127.0.0.1:62465
+1657757289213	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62466" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ivana\\AppData\\Local\\Temp\\rust_mozprofilehVh4cw"
+1657757289684	Marionette	INFO	Marionette enabled
+1657757289688	Marionette	INFO	Listening on port 62475
+WebDriver BiDi listening on ws://localhost:62466
+Read port: 62475
+1657757289875	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ivana\\AppData\\Local\\Temp\\rust_mozprofilehVh4cw\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62466/devtools/browser/03f4a75d-5c76-4678-823b-15f50c196a23
+JavaScript error: https://www.blazedemo.com/assets/bootstrap.min.js, line 7: TypeError: a is not a function
+JavaScript error: https://www.blazedemo.com/assets/bootstrap-table.js, line 1126: ReferenceError: jQuery is not defined
+1657757292418	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.blazedemo.com"
+JavaScript error: https://www.blazedemo.com/assets/bootstrap.min.js, line 7: TypeError: a is not a function
+JavaScript error: https://www.blazedemo.com/assets/bootstrap-table.js, line 1126: ReferenceError: jQuery is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.blazedemo.com"
+JavaScript error: https://www.blazedemo.com/assets/bootstrap.min.js, line 7: TypeError: a is not a function
+JavaScript error: https://www.blazedemo.com/assets/bootstrap-table.js, line 1126: ReferenceError: jQuery is not defined
+1657757298100	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.blazedemo.com"
+JavaScript error: https://www.blazedemo.com/assets/bootstrap.min.js, line 7: TypeError: a is not a function
+JavaScript error: https://www.blazedemo.com/assets/bootstrap-table.js, line 1126: ReferenceError: jQuery is not defined
+1657757305428	Marionette	INFO	Stopped listening on port 62475
+1657757604524	geckodriver	INFO	Listening on 127.0.0.1:62600
+1657757607541	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62601" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ivana\\AppData\\Local\\Temp\\rust_mozprofileGzDuPR"
+1657757607946	Marionette	INFO	Marionette enabled
+1657757607950	Marionette	INFO	Listening on port 62610
+WebDriver BiDi listening on ws://localhost:62601
+Read port: 62610
+1657757608065	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ivana\\AppData\\Local\\Temp\\rust_mozprofileGzDuPR\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62601/devtools/browser/af3f7d6b-ceea-4e5c-af67-49e67026a132
+JavaScript error: https://www.blazedemo.com/assets/bootstrap.min.js, line 7: TypeError: a is not a function
+JavaScript error: https://www.blazedemo.com/assets/bootstrap-table.js, line 1126: ReferenceError: jQuery is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.blazedemo.com"
+JavaScript error: https://www.blazedemo.com/assets/bootstrap.min.js, line 7: TypeError: a is not a function
+JavaScript error: https://www.blazedemo.com/assets/bootstrap-table.js, line 1126: ReferenceError: jQuery is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.blazedemo.com"
+JavaScript error: https://www.blazedemo.com/assets/bootstrap.min.js, line 7: TypeError: a is not a function
+JavaScript error: https://www.blazedemo.com/assets/bootstrap-table.js, line 1126: ReferenceError: jQuery is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.blazedemo.com"
+JavaScript error: https://www.blazedemo.com/assets/bootstrap.min.js, line 7: TypeError: a is not a function
+JavaScript error: https://www.blazedemo.com/assets/bootstrap-table.js, line 1126: ReferenceError: jQuery is not defined
+1657757622801	Marionette	INFO	Stopped listening on port 62610
+1657757697489	geckodriver	INFO	Listening on 127.0.0.1:62710
+1657757700506	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62711" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ivana\\AppData\\Local\\Temp\\rust_mozprofileB7Ogfm"
+1657757700889	Marionette	INFO	Marionette enabled
+1657757700893	Marionette	INFO	Listening on port 62718
+WebDriver BiDi listening on ws://localhost:62711
+Read port: 62718
+1657757701013	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ivana\\AppData\\Local\\Temp\\rust_mozprofileB7Ogfm\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62711/devtools/browser/0fc6511b-9187-40c0-8bbd-e1c4d62494ac
+JavaScript error: https://www.blazedemo.com/assets/bootstrap.min.js, line 7: TypeError: a is not a function
+JavaScript error: https://www.blazedemo.com/assets/bootstrap-table.js, line 1126: ReferenceError: jQuery is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.blazedemo.com"
+JavaScript error: https://www.blazedemo.com/assets/bootstrap.min.js, line 7: TypeError: a is not a function
+JavaScript error: https://www.blazedemo.com/assets/bootstrap-table.js, line 1126: ReferenceError: jQuery is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.blazedemo.com"
+JavaScript error: https://www.blazedemo.com/assets/bootstrap.min.js, line 7: TypeError: a is not a function
+JavaScript error: https://www.blazedemo.com/assets/bootstrap-table.js, line 1126: ReferenceError: jQuery is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.blazedemo.com"
+JavaScript error: https://www.blazedemo.com/assets/bootstrap.min.js, line 7: TypeError: a is not a function
+JavaScript error: https://www.blazedemo.com/assets/bootstrap-table.js, line 1126: ReferenceError: jQuery is not defined
+1657757706309	Marionette	INFO	Stopped listening on port 62718
