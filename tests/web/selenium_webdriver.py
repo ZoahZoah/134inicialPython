@@ -60,8 +60,6 @@ class Testes:
                 )
 
         # Pagina Inicial (Home)
-        # Pagina Inicial (Home)
-        # Pagina Inicial (Home)
         # Executa / Valida
         # abrir o browser no endereco
         self.driver.get('https://www.blazedemo.com')
